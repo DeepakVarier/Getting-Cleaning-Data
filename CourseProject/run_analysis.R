@@ -127,4 +127,4 @@ for(i in 1:subjectLen) {
           }
     }
 head(tidyData)
-write.table(tidyData, "means_data.txt") # write out the 2nd dataset
+write.table(tidyData, "means_data.txt",row.names = FALSE) # write out the 2nd dataset
