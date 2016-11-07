@@ -29,6 +29,6 @@ To run the analysis, perform the following steps:
 * You will find two output files are generated in the current working directory:
   1. merged_data.txt: it contains a data frame called cleanedData with 10299x68 dimension.
   2. means_data.txt: it contains a data frame called tidyData with 180x68 dimension.
-* Finally, use data <- read.table("data_with_means.txt") command in RStudio to read the file. Since we are required to get the average of each variable for each activity and each subject, and there are 6 activities in total and 30 subjects in total, we have 180 rows with all combinations for each of the 66 features.
+* Finally, use data <- read.table("means_data.txt") command in RStudio to read the file. Since we are required to get the average of each variable for each activity and each subject, and there are 6 activities in total and 30 subjects in total, we have 180 rows with all combinations for each of the 66 features.
 
 
